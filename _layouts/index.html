@@ -4,39 +4,46 @@
 
 <body>
 	<section class="hero is-dark" style="position: fixed; top: 0; width: 100%; z-index: 20; background: none;">
-		<!-- Hero header: will stick at the top -->
-		<div class="hero-head">
-			<header class="nav" style="box-shadow: none; background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 98%); background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 75%,rgba(0,0,0,0) 98%); background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 75%,rgba(0,0,0,0) 98%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);">
-				<div class="container">
-					<div class="nav-left" style="overflow: hidden;">
-						<a class="nav-item">
-							<span style="font-family: 'Satisfy', cursive; font-size: 2.4rem; color: #fff; margin-top: 10px;">Y💕D</span>
-						</a>
-					</div>
-					<span class="nav-toggle">
-						<span></span>
-						<span></span>
-						<span></span>
-					</span>
-					<div class="nav-right nav-menu">
-						<a href="#details" class="nav-item">
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="nav-item" href="#welcome">
+					<span style="font-family: 'Satisfy', cursive; font-size: 2.4rem; color: #fff; margin-left: 1rem">Y💕D</span>
+				</a>
+				
+				<a role="button" class="navbar-burger burger has-text-white" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+
+			<div id="navbarBasicExample" class="navbar-menu">
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<a href="#details" class="has-text-white">
 							Details
-						</a>
-						<a href="#celebrate" class="nav-item">
+						</a>	
+					</div>
+					<div class="navbar-item">
+						<a href="#celebrate" class="has-text-white">
 							Celebrate
 						</a>
-						<a href="#gallery" class="nav-item">
+					</div>
+					<div class="navbar-item">
+						<a href="#gallery" class="has-text-white">
 							Gallery
-						</a>
-						<a href="#accomodation" class="nav-item">
+						</a>	
+					</div>
+					<div class="navbar-item">
+						<a href="#accomodation" class="has-text-white">
 							Accomodation
 						</a>
 					</div>
 				</div>
-			</header>
-		</div>
+			</div>
+		</nav>
 	</section>
-	<section class="hero is-dark is-fullheight" style="position: relative; background-image: url('https://picsum.photos/id/1002/4312/2868'); background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll;">
+	<section class="hero is-dark is-fullheight" id="welcome" style="position: relative; background-image: url('https://picsum.photos/id/1002/4312/2868'); background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll;">
 		<!-- Hero content: will be in the middle -->
 		<div class="hero-body">
 			<div class="container has-text-centered">
@@ -55,7 +62,7 @@
 		<!-- Hero footer: will stick at the bottom -->
 		<div class="hero-foot has-text-centered">
 			<a href="#details" class="icon is-epic animated bounce" style="margin-bottom: 1rem;">
-				<svg class="fa icon-angle-down">
+				<svg class="fa icon-angle-down has-text-white">
 					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-angle-down"></use>
 				</svg>
 			</a>
