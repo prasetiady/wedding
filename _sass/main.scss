@@ -207,63 +207,10 @@ section {
 	}
 }
 
-#footer {
-	background: linear-gradient(0deg, #733d93, #625ebd, #1a9925);
-	background-size: 600% 600%;
-	-webkit-animation: FooterGradient 6s ease infinite;
-	-moz-animation: FooterGradient 6s ease infinite;
-	-o-animation: FooterGradient 6s ease infinite;
-	animation: FooterGradient 6s ease infinite;
-	@-webkit-keyframes FooterGradient {
-		0% {
-			background-position: 0 50%;
-		}
+.wedding-font {
+	font-family: 'Satisfy';
+}
 
-		50% {
-			background-position: 100% 51%;
-		}
-
-		100% {
-			background-position: 0 50%;
-		}
-	}
-	@-moz-keyframes FooterGradient {
-		0% {
-			background-position: 0 50%;
-		}
-
-		50% {
-			background-position: 100% 51%;
-		}
-
-		100% {
-			background-position: 0 50%;
-		}
-	}
-	@-o-keyframes FooterGradient {
-		0% {
-			background-position: 0 50%;
-		}
-
-		50% {
-			background-position: 100% 51%;
-		}
-
-		100% {
-			background-position: 0 50%;
-		}
-	}
-	@keyframes FooterGradient {
-		0% {
-			background-position: 0 50%;
-		}
-
-		50% {
-			background-position: 100% 51%;
-		}
-
-		100% {
-			background-position: 0 50%;
-		}
-	}
+.wedding-font-cursive {
+	font-family: 'Satisfy', cursive;
 }

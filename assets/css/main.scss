@@ -1,7 +1,6 @@
 ---
 ---
-@import "main";
-@import "slider";
+@import "bulma.config";
 @import "bulma/utilities/_all";
 @import "bulma/base/_all";
 @import "bulma/elements/_all";
@@ -9,3 +8,6 @@
 @import "bulma/components/_all";
 @import "bulma/grid/_all";
 @import "bulma/layout/_all";
+@import "slider";
+@import "main";
+@import "sections/_all";
