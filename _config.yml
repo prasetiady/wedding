@@ -6,4 +6,8 @@ defaults:
   - scope:
       path: "assets/img"
     values:
-      image: true      
+      image: true
+collections:
+  guests:
+    output: true
+    permalink: /:collection/:name            

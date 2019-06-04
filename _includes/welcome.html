@@ -1,7 +1,7 @@
 <section class="hero is-dark is-fullheight" id="welcome">
 	<div class="hero-body">
 		<div class="container has-text-centered">
-			<br><br>
+			<br><br><br>
 			<div class="title is-size-1 wedding-font">
 				Yuna 💕 Dedy
 			</div>
@@ -9,6 +9,13 @@
 			<div class="is-size-2">
 				بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
 			</div>
+			{%- if page.guest -%}
+			<br>
+			<div class="is-size-3">
+				{{ page.guest }},
+			</div>	
+			{%- endif -%}
+			<br>
 			<div class="is-size-2 wedding-font-cursive">
 				We are getting married!
 			</div>
