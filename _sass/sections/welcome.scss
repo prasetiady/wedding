@@ -1,16 +1,19 @@
 #welcome {
 	position: relative;
-	background-image: url("../../assets/img/flower-top.png"), url("../../assets/img/flower-bottom.png");
-	background-position: left top, right bottom;
-	background-size: 600px 400px;
-	background-repeat: no-repeat;
-	background-attachment: scroll !important;
-	color: #f19d85;
-	z-index: 0;
-}
+	background-color: white;
+	background-image: linear-gradient(to bottom right, #000000, #442556);
 
-#welcome .title {
-	background: -webkit-linear-gradient(#f19d85, #f9c5bf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: url("../../assets/img/flower-top.png"), url("../../assets/img/flower-bottom.png");
+		background-position: left top, right bottom;
+		background-size: 600px 400px;
+		background-repeat: no-repeat;
+		background-attachment: scroll !important;
+	}
 }
