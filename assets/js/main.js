@@ -30,64 +30,6 @@ $(document).ready(function() {
 		autoPlay: true
 	});
 
-	particlesJS("particles-js", {
-		"particles": {
-			"number": {
-				"value": 15,
-				"density": {
-					"enable": false
-				}
-			},
-			"shape": {
-				"type": "image",
-				"polygon": {
-					"nb_sides": 4
-				},
-				"image": {
-					"src": loveImage,
-					"width": 100,
-					"height": 75
-				}
-			},
-			"opacity": {
-				"value": 0.3,
-				"random": false,
-				"anim": {
-					"enable": false,
-					"speed": 1,
-					"opacity_min": 0.1,
-					"sync": false
-				}
-			},
-			"size": {
-	      "value": 15,
-	    },
-			"line_linked": {
-				"enable": false
-			},
-			"move": {
-				"enable": true,
-				"speed": 2,
-				"direction": "top",
-				"random": true,
-				"straight": false,
-				"out_mode": "out",
-				"bounce": false
-			}
-		},
-		"interactivity": {
-			"events": {
-				"onhover": {
-					"enable": false
-				},
-				"onclick": {
-					"enable": false
-				}
-			}
-		},
-		"retina_detect": true
-	});
-
 	// Check for click events on the navbar burger icon
 	$(".navbar-burger").click(function() {
 
