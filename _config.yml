@@ -10,4 +10,4 @@ defaults:
 collections:
   guests:
     output: true
-    permalink: /:collection/:name            
+    permalink: /:name            
