@@ -1,4 +1,4 @@
-baseurl: /wedding
+baseurl: /
 sass:
     style: compressed
     sass_dir: _sass
