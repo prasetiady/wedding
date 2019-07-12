@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(".countdown").countdown({
-		until: new Date("Aug 24 2019 13:00:00"),
+		until: new Date("Aug 24 2019 09:00:00"),
 		compact: true
 	}).show().before("(").after(")");
 
