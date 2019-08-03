@@ -1,10 +1,11 @@
 #welcome {
-	// position: relative;
-	background-color: white;
-	background-image: url("../../assets/img/cover.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	min-width: 100%;
+	position: relative;
+	background: url("../../assets/img/cover.jpg") no-repeat fixed;
+	// background-size: cover;
+	background-size: 100% auto;
+	
+	@supports not (-webkit-overflow-scrolling: touch) {
+	  background-position: center;
+	}
 }
+
