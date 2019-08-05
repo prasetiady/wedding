@@ -1,4 +1,19 @@
 $(document).ready(function() {
+	windowHeight = $(window).outerHeight();
+	windowWidth = $(window).outerWidth();
+
+	isWider = (windowWidth / windowHeight) > (1520 / 2036)
+
+	if (isWider) {
+		$('#welcome').css({
+			"background-size": windowWidth + "px auto"
+		})
+	} else {
+		$('#welcome').css({
+			"background-size": "auto " + windowHeight + "px"
+		})
+	}
+
 	$(".countdown").countdown({
 		until: new Date("Aug 24 2019 09:00:00"),
 		compact: true

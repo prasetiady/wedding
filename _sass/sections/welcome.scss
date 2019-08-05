@@ -1,11 +1,8 @@
 #welcome {
 	position: relative;
 	background: url("../../assets/img/cover.jpg") no-repeat fixed;
-	// background-size: cover;
-	background-size: 100% auto;
-	
 	@supports not (-webkit-overflow-scrolling: touch) {
-	  background-position: center;
+		background-position: center !important;
+		background-size: cover !important;
 	}
 }
-
