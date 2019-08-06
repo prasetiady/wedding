@@ -1,5 +1,5 @@
 ---
 layout: index
-title: Y💕D, Try
+title: Y💕D, hi Try
 guest: Dear Mochamad Try
 ---
