@@ -1,5 +1,5 @@
 ---
 layout: index
-title: Y💕D, Hendra
+title: Y💕D, hi Hendra
 guest: Dear Mas Hendra & Family
 ---

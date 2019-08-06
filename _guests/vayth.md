@@ -1,5 +1,5 @@
 ---
 layout: index
-title: Y💕D, Vai
+title: Y💕D, hi Vai
 guest: Hi Vai
 ---

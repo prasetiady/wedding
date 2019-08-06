@@ -1,5 +1,5 @@
 ---
 layout: index
-title: Y💕D, Abdul
+title: Y💕D, hi Abdul
 guest: Hi Abdullah Ghifari
 ---

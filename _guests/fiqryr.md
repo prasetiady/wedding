@@ -1,5 +1,5 @@
 ---
 layout: index
-title: Y💕D, Fiqry
+title: Y💕D, hi Fiqry
 guest: Hi Mas Fiqry
 ---
