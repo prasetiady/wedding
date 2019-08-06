@@ -13,6 +13,8 @@ $(document).ready(function() {
 			"background-size": "auto " + windowHeight + "px"
 		})
 	}
+	
+	$("body").css({"width": windowWidth + "px"})
 
 	$(".countdown").countdown({
 		until: new Date("Aug 24 2019 09:00:00"),
