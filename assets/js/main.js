@@ -18,7 +18,9 @@ $(document).ready(function() {
 
 	$(".countdown").countdown({
 		since: new Date("Aug 24 2019 09:00:00"),
-		compact: true
+		compact: false,
+		format: 'YODHMS',
+		layout: '{yn} years {on} months {dn} days {hn}:{mnn}:{snn}'
 	}).show().before("(").after(")");
 
 	$("#location").click(function() {
